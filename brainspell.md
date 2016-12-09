@@ -15,12 +15,16 @@ We used GitHub to manage the client and server code, and to coordinate its devel
 #3.	Results
 ###A. Supplementary manual data edit options
 In the original version of Brainspell, users were able to edit experiment (table) title, caption and coordinates for each article. We added four supplementary options. In particular, users are now provided with enhanced ‘edit feedback’:
-*	Feedback indicating when a field is editable or has been successfully saved. Editable text fields now turn light grey, while a successfully stored field loses its coloring. Storage of fields can now be triggered by a tab key or by clicking elsewhere, in addition to hitting return.
-
-Users are also provided with additional edit options, specifically, the ability to:
-*	Add symbols to the title and caption fields.
-*	Remove empty tables.
-*	Add and remove rows from a table. 
+\begin{itemize}
+\item Feedback indicating when a field is editable or has been successfully saved. Editable text fields now turn light grey, while a successfully stored field loses its coloring. Storage of fields can now be triggered by a tab key or by clicking elsewhere, in addition to hitting return.
+\end{itemize}
+\vspace{10ex}
+\noindent Users are also provided with additional edit options, specifically, the ability to:
+\begin{itemize}
+\item Add symbols to the title and caption fields.
+\item Remove empty tables.
+\item Add and remove rows from a table. 
+\end{itemize}
 
 ###B. Database extension
 While users were previously able to add new articles and their coordinate tables, the process was labor- and time-intensive, since each value had to manually entered. We implemented a more efficient method to edit tables:
