@@ -67,7 +67,7 @@ contrib: RT developed Brainspell. AB, DK, and JBP suggested enhancements and per
   
 bibliography: brainhack-report
 
-gigascience-ref: REFXXX
+gigascience-ref: \href{http://gigadb.org/dataset/100216}{doi:10.5524/100216}
 ...
 
 #Introduction
